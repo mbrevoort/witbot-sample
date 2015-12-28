@@ -6,3 +6,4 @@ config:
     info: Get this key from the Open Weather App you created on the web
   - name: WIT_TOKEN
     friendly_name: The Wit.ai API Token
+    info: This is the wit api token for your app on wit.ai
