@@ -1,0 +1,8 @@
+name: sample wit bot
+description: This is just a sample witbot
+config:
+  - name: OPENWEATHER_KEY
+    friendly_name: Open Weather API Key
+    info: Get this key from the Open Weather App you created on the web
+  - name: WIT_TOKEN
+    friendly_name: The Wit.ai API Token

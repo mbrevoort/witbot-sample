@@ -1,0 +1,25 @@
+{
+  "name": "witbot-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbrevoort/witbot-sample.git"
+  },
+  "author": "Mike Brevoort",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbrevoort/witbot-sample/issues"
+  },
+  "homepage": "https://github.com/mbrevoort/witbot-sample#readme",
+  "dependencies": {
+    "botkit": "0.0.4",
+    "request": "^2.67.0",
+    "witbot": "^1.0.1"
+  }
+}
