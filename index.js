@@ -33,7 +33,7 @@ var weather = require('./weather')(openWeatherApiKey)
 witbot.hears('weather', 0.5, function (bot, message, outcome) {
   console.log(outcome.entities.location)
   if (!outcome.entities.location || outcome.entities.location.length === 0) {
-    bot.reply(message, 'I\'d lvoe to give you the weather but for where?')
+    bot.reply(message, 'I\'d love to give you the weather but for where?')
     return
   }
 
